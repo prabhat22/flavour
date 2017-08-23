@@ -1127,17 +1127,25 @@ ul li a:hover
 {  
     .img_8 img
 {
-    min-height: 349px;
+    min-height: 372px;
     width:108%;
-    margin-left: 2%;
+    margin-left: 3%;
 }
+    
     .row .desc_8_1{
     left: 5%;
     background-color: #3BE8B0;
-    min-height: 300px;
+    min-height: 372px;
     text-align: -webkit-center;
     font-size: 20px;
         width: 50%;
+}
+       .desc_8
+{
+    background-color: #3BE8B0;
+    min-height: 372px;
+    text-align: -webkit-center;
+    font-size: 20px;
 }
  
     
