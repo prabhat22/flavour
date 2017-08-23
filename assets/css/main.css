@@ -35,6 +35,24 @@ a:hover
 {
     margin: 0px 1%;
 }
+/*preloader*/
+#preloader {
+    position: fixed;
+    background-color: #fff;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+#preloader img
+{
+    width: 100%;
+    height: 100%;
+   vertical-align: middle;
+    
+}
 .menu-btn
 {
     display: none;
@@ -161,6 +179,18 @@ ul li a:hover
        left:114%;
         
     }
+}
+@media(max-width:420px)
+{
+    #lgn
+    {
+          background-color: rgba(0,0,0,0.5);
+    width: 142%;
+    position: absolute;
+    top: 110%;
+    left: 18%;
+        
+    } 
 }
 
 /*BANNER*/
@@ -532,6 +562,15 @@ ul li a:hover
     {
         text-align: center;
     }
+}
+@media(max-width:420px)
+{
+    #section_3
+{
+    background-color: #003666;
+    text-align: center;
+    height:2100px;
+}
 }
 /*section_4*/
 #section_4
@@ -999,6 +1038,30 @@ ul li a:hover
 }
 
 }
+@media(max-width:420px)
+{
+        .wthree-text ul li span
+{
+        position: absolute;
+    top: 8%;
+    left:26%;
+}
+           .order
+{
+    background-color: red;
+    color: white;
+    width:66%;
+}
+    #FORM
+{
+  border: 1px solid grey;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 76%;
+    
+}
+    
+}
 
 
 
@@ -1060,7 +1123,25 @@ ul li a:hover
     width:108%;
 }
 }
-
+@media(max-width:420px)
+{  
+    .img_8 img
+{
+    min-height: 349px;
+    width:108%;
+    margin-left: 2%;
+}
+    .row .desc_8_1{
+    left: 5%;
+    background-color: #3BE8B0;
+    min-height: 300px;
+    text-align: -webkit-center;
+    font-size: 20px;
+        width: 50%;
+}
+ 
+    
+}
 
 
 
@@ -1083,7 +1164,7 @@ ul li a:hover
 }
 .srch button
 {
-width: auto;;
+width: auto;
     background-color: #3BE8B0;
    height: 40px;
     color: white;
@@ -1261,5 +1342,16 @@ width: auto;;
 }
 }
 
-
+@media(max-width:420px)
+{
+    .srch button
+{
+width: auto;
+    background-color: #3BE8B0;
+   height: 40px;
+    color: white;
+    font-size: 18px;
+    position: absolute
+}
+}
 
