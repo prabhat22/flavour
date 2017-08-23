@@ -1,5 +1,12 @@
 $(document).ready(function()
                  {
+
+      setTimeout(function(){
+        $("#preloader").fadeOut(2000);
+        $("#body").css("overflow-y","scroll");
+    },10000);
+    
+    
     new WOW().init();
      $("#nav_7").click(function(){
             $("#lgn").toggle(1000);
@@ -57,8 +64,13 @@ $(document).ready(function()
             }
         })
 
-    
-  
+var vw=$(window).width();
+    if(vw<420)
+        {
+             $('.circle').removeClass('left');
+             $('.circle').removeClass('right');
+        }
+   
 })
      
 
