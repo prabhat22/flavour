@@ -29,10 +29,10 @@ a:hover
     
 }container
 {
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 #content
-{
+{overflow-x:hidden;
     margin: 0px 1%;
 }
 /*preloader*/
