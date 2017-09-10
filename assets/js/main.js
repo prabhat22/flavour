@@ -13,7 +13,7 @@ $(document).ready(function()
         })
     $("#BTN").click(function()
                    {
-        $("#main-nav").toggle(1);
+        $("#main-nav").slideToggle(1000);
         
     })
 
